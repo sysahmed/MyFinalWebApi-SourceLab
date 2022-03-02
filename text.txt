@@ -1,0 +1,34 @@
+Проектирайте релационна база данни с таблици за поръчки, редове за поръчки, артикули и клиенти. Като минимум,
+структурата на данните трябва да поддържа:
+ Поръчки: номер, дата, клиент, обща сума
+ Редове за поръчка: брой, артикул, единична цена, количество, обща цена
+ Артикули: име, описание, единична цена
+ Клиенти: име, адрес
+Разработете уеб API, който поддържа:
+ Вмъкнете поръчка
+ Актуализиране на поръчка
+ Изтриване на поръчка
+ Вземете всички поръчки на клиент
+ Вземете всички поръчки за дата
+Develop an Azure Function улавя съобщенията от опашка със съобщения (по ваш избор). Всяко съобщение
+съдържа информация, необходима за създаване на нова поръчка. Функцията трябва да съхранява всяко съобщение в дневник
+(таблица Azure, разделена по месеци) и извикайте API, за да съхраните поръчката в релационната база данни. Дизайн
+и имплементирайте поведение в случай, че извикването на API не успее.
+
+Design a Relational Database with tables for Orders, Order lines, Items and Clients. As minimum, the
+data structure must support:
+ Orders: number, date, client, grand total amount
+ Order lines: number, item, unit price, quantity, total price
+ Items: name, description, unit price
+ Clients: name, address
+Develop a Web API which supports:
+ Insert an order
+ Update an order
+ Delete an order
+ Get all orders per client
+ Get all orders for a date
+Develop an Azure Function picks up the messages from a message queue (of your choice). Each message
+contains information necessary to create a new order. The function must store each message in a log
+(Azure table, partitioned by month) and call the API to store the order in the relational database. Design
+and implement behavior in case the API call doesn’t succeed.
+
