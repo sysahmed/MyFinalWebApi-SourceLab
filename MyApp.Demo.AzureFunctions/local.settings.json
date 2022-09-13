@@ -1,7 +1,7 @@
 {
     "IsEncrypted": false,
     "Values": {
-        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=myappdemoazurefunctionss;AccountKey=2R5aFX8kcErlndsVncGdaCo5NOskIBM48QH/AoSj20FbN82Wtq0ro2iZnb8zAXw3YWCDz2+TfKOp+ASt57ZG+w==;BlobEndpoint=https://myappdemoazurefunctionss.blob.core.windows.net/;TableEndpoint=https://myappdemoazurefunctionss.table.core.windows.net/;QueueEndpoint=https://myappdemoazurefunctionss.queue.core.windows.net/;FileEndpoint=https://myappdemoazurefunctionss.file.core.windows.net/",
+        "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=myappdemoazurefunctionss;AccountKey=;BlobEndpoint=https://myappdemoazurefunctionss.blob.core.windows.net/;TableEndpoint=https://myappdemoazurefunctionss.table.core.windows.net/;QueueEndpoint=https://myappdemoazurefunctionss.queue.core.windows.net/;FileEndpoint=https://myappdemoazurefunctionss.file.core.windows.net/",
         "FUNCTIONS_WORKER_RUNTIME": "dotnet"
     }
 }
